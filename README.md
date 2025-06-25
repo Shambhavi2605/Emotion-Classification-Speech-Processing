@@ -61,16 +61,6 @@ Run it locally:
 
 streamlit run streamlit_app.py
 
-# Project Structure
-Emotion_Classification/
-├── Emotion_Classifier.ipynb     # Full code with preprocessing, feature extraction, model training
-├── streamlit_app.py             # Streamlit frontend script
-├── test_model.py                # Script to test the trained model on new audio
-├── lightgbm_model.pkl           # Trained LightGBM model
-├── demo_video.mp4               # 2-minute demonstration video of the web app
-├── README.md                    # Project documentation
-
-
 # Demo
 A short demo video (demo_video.mp4) demonstrates how the web app works by uploading sample speech audio.
 
