@@ -4,14 +4,14 @@ This project implements an end-to-end machine learning pipeline to classify emot
 # Objective
 
 To build a robust emotion detection system that can classify speech into one of the following 8 emotional categories using audio processing and machine learning techniques.
--Neutral
--Calm
--Happy
--Sad
--Angry
--Fearful
--Disgust
--Surprised
+- Neutral
+- Calm
+- Happy
+- Sad
+- Angry
+- Fearful
+- Disgust
+- Surprised
 
 # Dataset
 We use the RAVDESS dataset (Ryerson Audio-Visual Database of Emotional Speech and Song), which contains audio recordings from 24 actors expressing various emotions. The dataset was parsed and labeled based on filename conventions.
