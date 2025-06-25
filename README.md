@@ -21,35 +21,35 @@ Audio trimmed to 3 seconds, offset by 0.5s. Extracted features like mfccs, chrom
 
 # Models Tried
 The following models were trained and evaluated:
-XGBoost
-Random Forest
-Logistic Regression
-SVM
-LightGBM (best-performing)
+- XGBoost
+- Random Forest
+- Logistic Regression
+- SVM
+- LightGBM (best-performing)
 
 Final Model: LightGBM
 
-Accuracy: ~94%
-F1-Score: >90% for all classes
+- Accuracy: ~94%
+- F1-Score: >90% for all classes
 
 Meets evaluation criteria:
-Overall accuracy > 80%
-F1-score > 80%
-Class-wise accuracy > 75%
+- Overall accuracy > 80%
+- F1-score > 80%
+- Class-wise accuracy > 75%
 
 # Evaluation Metrics
-Confusion Matrix
-Classification Report
-Per-Class Accuracy
-Macro and Weighted F1 Scores
+- Confusion Matrix
+- Classification Report
+- Per-Class Accuracy
+- Macro and Weighted F1 Scores
 
 #Pipeline
-Load and label audio files from RAVDESS
-Extract features using librosa
-Apply data augmentation to training set
-Train ML models and evaluate
-Save trained LightGBM model using joblib
-Build and deploy frontend using Streamlit
+- Load and label audio files from RAVDESS
+- Extract features using librosa
+- Apply data augmentation to training set
+- Train ML models and evaluate
+- Save trained LightGBM model using joblib
+- Build and deploy frontend using Streamlit
 
 #Testing
 A Python script (test_model.py) allows testing the saved model by passing new audio files (WAV format). Also, the web app allows end-users to upload audio and receive emotion predictions.
@@ -76,17 +76,17 @@ A short demo video (demo_video.mp4) demonstrates how the web app works by upload
 
 #Requirements
 Install dependencies:
-pip install -r requirements.txt
+- pip install -r requirements.txt
 Main Libraries used:
-librosa
-scikit-learn
-xgboost, lightgbm
-pandas, numpy
-streamlit
-joblib
+- librosa
+- scikit-learn
+- xgboost, lightgbm
+- pandas, numpy
+- streamlit
+- joblib
 
 # Future Improvements
-Explore CNN/RNN models for temporal feature learning
-Use pre-trained speech embeddings like wav2vec2
-Improve UI/UX of the web app
-Add song classification functionality
+- Explore CNN/RNN models for temporal feature learning
+- Use pre-trained speech embeddings like wav2vec2
+- Improve UI/UX of the web app
+- Add song classification functionality
