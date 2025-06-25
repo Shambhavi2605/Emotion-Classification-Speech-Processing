@@ -1,0 +1,12 @@
+librosa==0.11.0
+numpy
+pandas
+scikit-learn
+xgboost
+lightgbm
+joblib
+tqdm
+streamlit
+matplotlib
+seaborn
+
