@@ -66,7 +66,7 @@ A short demo video (demo_video.mp4) demonstrates how the web app works by upload
 
 # Requirements
 Install dependencies:
-- pip install -r requirements.txt
+pip install -r requirements.txt
 Main Libraries used:
 - librosa
 - scikit-learn
@@ -74,6 +74,8 @@ Main Libraries used:
 - pandas, numpy
 - streamlit
 - joblib
+- matplotlib
+- seaborn
 
 # Future Improvements
 - Explore CNN/RNN models for temporal feature learning
