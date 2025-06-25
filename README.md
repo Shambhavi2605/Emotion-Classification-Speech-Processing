@@ -43,7 +43,7 @@ Meets evaluation criteria:
 - Per-Class Accuracy
 - Macro and Weighted F1 Scores
 
-#Pipeline
+# Pipeline
 - Load and label audio files from RAVDESS
 - Extract features using librosa
 - Apply data augmentation to training set
@@ -51,30 +51,30 @@ Meets evaluation criteria:
 - Save trained LightGBM model using joblib
 - Build and deploy frontend using Streamlit
 
-#Testing
+# Testing
 A Python script (test_model.py) allows testing the saved model by passing new audio files (WAV format). Also, the web app allows end-users to upload audio and receive emotion predictions.
 
-#Web App (Streamlit)
+# Web App (Streamlit)
 The frontend is built using Streamlit. Users can upload an audio file, and the app returns the predicted emotion using the trained model.
 
 Run it locally:
 
 streamlit run streamlit_app.py
 
-#Project Structure
-.
-├── Emotion_Classification.ipynb # Full development notebook
-├── streamlit_app.py # Streamlit frontend code
-├── test_model.py # Script to test saved model
-├── metadata.csv # Parsed RAVDESS file metadata
-├── saved_model.pkl # Trained LightGBM model
-├── README.md # Project documentation
-└── demo_video.mp4 # 2-minute demo video
+# Project Structure
+Emotion_Classification/
+├── Emotion_Classifier.ipynb     # Full code with preprocessing, feature extraction, model training
+├── streamlit_app.py             # Streamlit frontend script
+├── test_model.py                # Script to test the trained model on new audio
+├── lightgbm_model.pkl           # Trained LightGBM model
+├── demo_video.mp4               # 2-minute demonstration video of the web app
+├── README.md                    # Project documentation
 
-📽#Demo
+
+# Demo
 A short demo video (demo_video.mp4) demonstrates how the web app works by uploading sample speech audio.
 
-#Requirements
+# Requirements
 Install dependencies:
 - pip install -r requirements.txt
 Main Libraries used:
